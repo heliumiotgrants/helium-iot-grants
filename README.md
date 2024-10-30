@@ -1,9 +1,6 @@
-# helium-iot-grants
-A catalyst for community driven, decentralized wireless innovation.
+# **Helium IoT Grants Program**
 
-# **Helium IoT Working Group Grants Program**
-
-Welcome to the Helium IoT Working Group Grants Program! This GitHub repository serves as the open-access platform for submitting, reviewing, and tracking grant applications focused on advancing IoT development within the Helium ecosystem. Our goal is to make the grant process transparent, collaborative, and efficient.
+Welcome to the Helium IoT Grants Program! This GitHub repository serves as the open-access platform for submitting, reviewing, and tracking grant applications focused on advancing IoT development within the Helium ecosystem. Our goal is to make the grant process transparent, collaborative, and efficient.
 
 ## **Repository Overview**
 

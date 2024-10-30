@@ -55,7 +55,7 @@ After approval:
 
 ## **Project Board**
 
-The [Project Board](link_to_project_board) is our visual tool for tracking each application’s progress:
+The [Project Board](https://github.com/users/illperipherals/projects/1) is our visual tool for tracking each application’s progress:
 - **Submitted**: Newly submitted applications awaiting review.
 - **In Review**: Applications currently under review by the Working Group.
 - **Approved**: Applications that have passed review and are funded.
@@ -66,8 +66,9 @@ The Project board is updated automatically as applications move through each sta
 
 ## **Guidelines for Contributors**
 
-1. **Code of Conduct**: Please review and follow our [Code of Conduct](link_to_code_of_conduct.md) for respectful and constructive interactions.
-2. **Contributor Guidelines**: See [CONTRIBUTING.md](link_to_contributing.md) for detailed information on how to apply, review, and provide feedback.
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the
+[Contributor Covenant Code of Conduct](http://contributor-covenant.org/).
+Above all, thank you for taking the time to be a part of the Helium community.
 
 ## **Contact and Support**
 

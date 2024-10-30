@@ -69,4 +69,4 @@ Above all, thank you for taking the time to be a part of the Helium community.
 
 ## **Contact and Support**
 
-For questions, please open an [Issue](link_to_issue_template) in this repository, and a team member will respond as soon as possible.
+For questions, please open an [Issue](https://github.com/illperipherals/helium-iot-grants/issues/new) in this repository, and a team member will respond as soon as possible.

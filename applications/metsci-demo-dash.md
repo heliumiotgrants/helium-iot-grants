@@ -28,7 +28,7 @@ A video and blog post with a step-by-step guide for how to onboard a sensor, rou
    - The LoRa gateway forwards the data to the **LoRaWAN LNS**.
 
 2. **Data Management by LoRaWAN LNS**:
-   - The LNS (e.g., The Things Network) receives, decodes, and forwards the data to a service, typically using MQTT or HTTP.
+   - The LNS (MeteoScientific) receives, decodes, and forwards the data to a service, typically using MQTT or HTTP.
 
 3. **Data Processing with Node-RED**:
    - Node-RED subscribes to the data stream from the LoRaWAN LNS.

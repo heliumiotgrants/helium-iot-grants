@@ -52,7 +52,7 @@ After approval:
 
 ## **Project Board**
 
-The [Project Board](https://github.com/users/illperipherals/projects/1) is our visual tool for tracking each application’s progress:
+The [Project Board](https://github.com/users/heliumiotgrants/projects/1) is our visual tool for tracking each application’s progress:
 - **Submitted**: Newly submitted applications awaiting review.
 - **In Review**: Applications currently under review by the Working Group.
 - **Approved**: Applications that have passed review and are funded.
@@ -69,4 +69,4 @@ Above all, thank you for taking the time to be a part of the Helium community.
 
 ## **Contact and Support**
 
-For questions, please open an [Issue](https://github.com/illperipherals/helium-iot-grants/issues/new) in this repository, and a team member will respond as soon as possible.
+For questions, please open an [Issue](https://github.com/heliumiotgrants/helium-iot-grants/issues/new) in this repository, and a team member will respond as soon as possible.

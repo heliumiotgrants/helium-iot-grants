@@ -29,6 +29,9 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      - name: Repo Visualizer
+        uses: githubocto/repo-visualizer@0.9.1
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |

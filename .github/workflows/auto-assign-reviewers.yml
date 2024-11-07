@@ -35,4 +35,4 @@ jobs:
                 pull_number: pullRequestId,
                 reviewers: [],
                 team_reviewers: [teamName],
-            
+            });

@@ -19,20 +19,20 @@ jobs:
       - name: Repo Visualizer
         uses: githubocto/repo-visualizer@0.9.1
 
-  assign_reviewers:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/github-script@v6
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          script: |
-            const teamName = 'working-group';
-            const pullRequestId = context.payload.pull_request.number;
-            await github.rest.pulls.requestReviewers({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: pullRequestId,
-                reviewers: [],
-                team_reviewers: [teamName],
-            });
+  # assign_reviewers:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/github-script@v6
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #       with:
+  #         script: |
+  #           const teamName = 'working-group';
+  #           const pullRequestId = context.payload.pull_request.number;
+  #           await github.rest.pulls.requestReviewers({
+  #               owner: context.repo.owner,
+  #               repo: context.repo.repo,
+  #               pull_number: pullRequestId,
+  #               reviewers: [],
+  #               team_reviewers: [teamName],
+  #           });

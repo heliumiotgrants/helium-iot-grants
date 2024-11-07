@@ -1,0 +1,38 @@
+name: Add to Project Board
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add to Project Board
+        uses: actions/github-script@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const projectNumber = 1; // Replace with your actual project number
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issueOrPrNumber = context.payload.issue ? context.payload.issue.number : context.payload.pull_request.number;
+
+            // Find the project ID
+            const projects = await github.projects.listForRepo({
+              owner,
+              repo
+            });
+            const project = projects.data.find(proj => proj.number === projectNumber);
+            if (!project) {
+              throw new Error(`Project number ${projectNumber} not found`);
+            }
+
+            // Add the issue/PR to the project
+            await github.projects.createCard({
+              column_id: project.columns_url.split('/').pop(), // Update with actual column ID
+              content_id: issueOrPrNumber,
+              content_type: context.payload.issue ? 'Issue' : 'PullRequest'
+            });

@@ -1,0 +1,46 @@
+name: Auto-Move Project Board Cards
+
+on:
+  pull_request:
+    types: [labeled, unlabeled, closed, reopened]
+
+jobs:
+  project-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Move project card based on PR status
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { context, github } = require("@actions/github");
+            const pr = context.payload.pull_request;
+            const projectColumnIds = {
+              "Submitted": 1234567890,
+              "In Review": 1234567891,
+              "Approved": 1234567892,
+              "Closed": 1234567893
+            };
+            const labelToColumn = {
+              "application": "Submitted",
+              "milestone": "In Review",
+              "final-report": "Approved"
+            };
+
+            if (pr.merged) {
+              const column_id = projectColumnIds["Closed"];
+              await github.projects.moveCard({
+                card_id: pr.id,
+                column_id,
+                position: "top"
+              });
+            } else if (context.payload.action === "labeled") {
+              const label = context.payload.label.name;
+              if (label in labelToColumn) {
+                const column_id = projectColumnIds[labelToColumn[label]];
+                await github.projects.moveCard({
+                  card_id: pr.id,
+                  column_id,
+                  position: "top"
+                });
+              }
+            }

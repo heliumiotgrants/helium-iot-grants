@@ -1,0 +1,17 @@
+name: Auto Assign Reviewers
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  assign-reviewers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign reviewers
+        uses: actions-ecosystem/action-add-reviewers@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reviewers: |
+            reviewer1_username
+            reviewer2_username

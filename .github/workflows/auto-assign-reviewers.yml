@@ -1,16 +1,38 @@
 name: Auto Assign Reviewers
 
+permissions:
+  contents: write
+  
 on:
   pull_request:
+    branches: [ "main" ]
     types: [opened]
 
+  workflow_dispatch:
+
 jobs:
-  assign-reviewers:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Assign reviewers
-        uses: actions-ecosystem/action-add-reviewers@v1
+      - uses: actions/checkout@v4
+
+      - name: Repo Visualizer
+        uses: githubocto/repo-visualizer@0.9.1
+
+  assign_reviewers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          reviewers: |
-            working-group
+          script: |
+            const teamName = 'working-group';
+            const pullRequestId = context.payload.pull_request.number;
+            await github.rest.pulls.requestReviewers({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pullRequestId,
+                reviewers: [],
+                team_reviewers: [teamName],
+            

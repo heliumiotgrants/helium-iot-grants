@@ -8,6 +8,7 @@
 - **Organization (if applicable)**:
 - **Email**:
 - **GitHub Username**:
+- **Discord Username**:
 
 ## Project Overview
 Provide a brief summary of the project, its purpose, and its alignment with Helium IoT and grant program goals.
@@ -20,9 +21,12 @@ Outline the primary goals and objectives. What will the project achieve?
 
 ## Proposed Solution
 Describe the solution your project will deliver, including technical approaches, tools, and methodologies.
+What additional products or licenses are required to use this.
+Are are all the deliverables open-source or license free?
 
 ## Project Impact
 Explain how this project will benefit the Helium IoT ecosystem or community.
+Describe how others could use what you have received the grant for.
 
 ## Timeline and Milestones
 Provide a detailed timeline, with milestones and expected completion dates.

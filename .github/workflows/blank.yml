@@ -51,7 +51,9 @@ jobs:
         with:
           script: |
             const teamName = 'working-group';
-            const pullRequestId = context.payload.pull_request.number;
+            if (context && context.payload.pull_request.number) {
+              const pullRequestId = context.payload.pull_request.number;
+            }
             await github.rest.pulls.addReviewers({
                 owner: context.repo.owner,
                 repo: context.repo.repo,

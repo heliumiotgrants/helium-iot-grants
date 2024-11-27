@@ -67,6 +67,11 @@ This project is intended to be a safe, welcoming space for collaboration, and co
 [Contributor Covenant Code of Conduct](http://contributor-covenant.org/).
 Above all, thank you for taking the time to be a part of the Helium community.
 
+All grant applications are to create open source content, code or documentation for re-use by anyone promoting the use of the Helium networks.
+Grant offerings can be valued or approved in IOT or a Fiat equivalent but will be paid by the Foundation using IOT <:IOT:996704147497828385> as the default token at the value specified, or it can be requested in the equivalent of USDC on the day of delivery.  Tax forms W8/W9 and Know-Your-Customer documentation will need to be provided along with a wallet address to receive the tokens. It's possible grantees could be paid in Fiat - TBC.
+https://www.irs.gov/forms-pubs/about-form-w-9 (Non US Taxpayer)
+https://www.irs.gov/forms-pubs/about-form-w-8-ben (US Taxpayer)
+
 ## **Contact and Support**
 
 For questions, please open an [Issue](https://github.com/heliumiotgrants/helium-iot-grants/issues/new) in this repository, and a team member will respond as soon as possible.

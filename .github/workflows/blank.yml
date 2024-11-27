@@ -51,7 +51,12 @@ jobs:
         with:
           script: |
             const teamName = 'working-group';
-            const pullRequestId = context.payload.pull_request.number;
+            if (context && context.payload.pull_request.number) {
+              const pullRequestId = context.payload.pull_request.number;
+            }
+            else {
+              console.error("Object is undefined or does not have a number property");
+            }
             await github.rest.pulls.addReviewers({
                 owner: context.repo.owner,
                 repo: context.repo.repo,

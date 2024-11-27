@@ -59,7 +59,7 @@ Provide a detailed timeline, with milestones and expected completion dates.
 | Milestone 1 | Set up of full data flow | Date |
 | Milestone 2 | Blog post written and published to MetSci website | Date |
 | Milestone 3 | Video Production & Posting on MetSci YouTube | Date |
-| … | … | … |
+| Milestone 4 | All media (video, images, written content) delivered in a zip file for record keeping or republishing by Helium Foundation if MetSci blog disappears | … |
 
 ## Budget
 

@@ -13,7 +13,7 @@ jobs:
       - name: Add to Project Board
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const projectNumber = 1; // Replace with your actual project number
             const owner = context.repo.owner;

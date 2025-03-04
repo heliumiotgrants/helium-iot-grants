@@ -48,8 +48,7 @@ The **Moken Helium IOT Explorer** started as a free tool to give Helium hotspot 
 ### Why This Matters
 1. **Helium Data Growth**: As more IoT deployments arrive on Helium (e.g., WeatherXM, agtech sensors), Moken Explorer can help owners and the broader ecosystem visualize actual usage, coverage, and reliability.  
 2. **Network Insights**: Timely and accurate Helium network metrics spur better decision-making—identifying coverage gaps, comparing performance, and encouraging improvements.  
-3. **Encouraging Further Builds**: A strong third-party explorer with an accessible API and robust feature set reduces friction for new entrants (project developers, integrators, or sensor providers) who need reliable data.  
-4. **Community Education**: By making advanced or hidden hotspot data more transparent, Moken Explorer helps users troubleshoot issues, optimize setups, and gain confidence in Helium’s potential.
+3. **Community Education**: By making advanced or hidden hotspot data more transparent, Moken Explorer helps users troubleshoot issues, optimize setups, and gain confidence in Helium’s potential.
 
 ---
 
@@ -75,7 +74,7 @@ The **Moken Helium IOT Explorer** started as a free tool to give Helium hotspot 
 ---
 
 ## Proposed Solution
-1. **Development Hours**: Dedicate ~15 hours/week of developer time for one year (total 780 hours) to incorporate new features, respond to user feedback, build stable APIs, and perform ongoing maintenance.  
+1. **Development Hours**: Dedicate ~15 hours/week of developer time for one year (total 780 hours) to incorporate new features, respond to user feedback, and perform ongoing maintenance.  
 2. **Infrastructure and Server Costs**: Allocate part of the funding toward high-performance hosting to ensure fast response times, especially for map visualizations and real-time data retrieval.  
 3. **Implementation of Key Features**  
    - **User Experience Enhancements**: Bookmarked links, improved layout, coverage filters, distance/witness calculators, and new ways to compare hotspots.  
@@ -103,7 +102,7 @@ The **Moken Helium IOT Explorer** started as a free tool to give Helium hotspot 
 
 ## KPIs / Metrics
 - **Active Users**: Monthly active user count & site usage metrics.  
-- **Feature Adoption**: Usage of new features (API, coverage layers, CSV exports).  
+- **Feature Adoption**: Usage of new features (coverage layers, CSV exports).  
 - **Community Satisfaction**: Survey follow-ups and direct feedback on the new features.  
 - **Performance Benchmarks**: Page load times, map rendering speeds, error rates.  
 - **Diagnostics & Usage**: Growth in number of hotspots actively monitored via Moken Explorer.
@@ -124,6 +123,6 @@ Below is a proposed breakdown of the **\$80,000** grant request:
 ---
 
 ## Additional Information
-Moken Explorer is a central resource for Helium IoT participants, from individual hotspot owners to businesses managing sensor deployments. By meeting these user-driven requests—improved performance, better coverage insights, robust API, and more—the Explorer will continue to serve as a foundation for understanding and growing Helium’s DePIN coverage worldwide.
+Moken Explorer is a central resource for Helium IoT participants, from individual hotspot owners to businesses managing sensor deployments. By meeting these user-driven requests—improved performance, better coverage insights, and more—the Explorer will continue to serve as a foundation for understanding and growing Helium’s DePIN coverage worldwide.
 
 We welcome any further questions regarding our plan, methodology, or technical approach, and are grateful for the Helium community’s feedback that helped shape this proposal.

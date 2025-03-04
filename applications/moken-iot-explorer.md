@@ -117,7 +117,7 @@ Below is a proposed breakdown of the **\$80,000** grant request:
 |----------------------------------------------|---------------|
 | **Developer Time**<br/>*(~15 hrs/week @ \$80/hr, partially offset by this grant)* | \$62,400      |
 | **Server & Infrastructure**<br/>*(high-performance hosting, scaling, monitoring)* | \$17,600       |
-| **Total**                                    | **\$20,000**  |
+| **Total**                                    | **\$80,000**  |
 
 *Note: The actual cost for 15 hours/week over 12 months exceeds \$20,000. This grant will partially underwrite development time and infrastructure, with additional support from Moken/HeliumDeploy to cover the remainder.*
 

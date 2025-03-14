@@ -66,7 +66,7 @@ Moken Explorer began as a free resource for Helium hotspot owners to monitor ear
 | **Milestone 2** | Beta release of coverage maps, diagnostics tools, and alerting. | Months 2-3 |
 | **Milestone 3** | Performance optimizations, advanced analytics, and CSV export. | Months 3-5 |
 | **Milestone 4** | UI/UX refinements, leaderboard expansion, witness/distance metrics. | Months 5-9 |
-| **Milestone 5** | Full production release, continued maintenance and iteration. | Months 9-12 |
+| **Milestone 5** | Continued maintenance and iteration. | Months 9-12 |
 
 *Note: User testing and iterative improvements will be ongoing throughout development.*
 

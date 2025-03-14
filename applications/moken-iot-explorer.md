@@ -1,128 +1,90 @@
-# Grant Application
+**Grant Application**
 
-## Project Title
-**Moken Helium IOT Explorer Development**
+## **Project Title**
+**Enhancing Moken Helium IoT Explorer: Performance, Features & Infrastructure**
 
-## Applicant Information
+## **Applicant Information**
 - **Name**: Rory Bokser  
 - **Organization**: Moken/HeliumDeploy  
 - **Email**: rory@heliumdeploy.io  
 - **GitHub Username**: rorybokser  
 - **Discord Username**: arbawk  
 
-## Grant Request Summary
-This grant request seeks **$80,000** to expand the functionality, performance, and user experience of the **Moken Helium IOT Explorer**. The Moken Explorer is a web-based tool that exposes all available information for a Helium IoT hotspot—such as earnings, data transfer counts, rank, activity lists, witnessed and beaconed hotspots, and details stored on the Solana blockchain.
+## **Grant Request Summary**
+To continue serving the Helium community effectively, we request **$80,000** to enhance the **Moken Helium IoT Explorer**, focusing on improved performance, user-driven features, and robust infrastructure.
 
-Moken Explorer has grown into an essential resource for hotspot owners and the broader Helium IoT community. However, as usage expands, additional development hours and robust server infrastructure are needed to keep pace with user requests. Specifically, this grant will fund:
-1. **Ongoing Development**: ~15 hours/week at \$80/hour to build requested features, address performance issues, and roll out enhancements over the next year.  
-2. **Server and Infrastructure Costs**: Maintaining high-speed servers and reliability as user traffic increases.
+Moken Explorer is a web-based tool that provides in-depth insights into Helium IoT hotspots, including earnings, data transfer counts, ranking, activity logs, witnessing patterns, and blockchain data stored on Solana. As usage grows, additional development and infrastructure improvements are required. Specifically, this grant will fund:
 
-### Highlights From Our User Survey
-We conducted a survey asking users what improvements they wanted to see in the Moken Explorer. Below is a summary of the most frequent and impactful requests:
+1. **Ongoing Development**: ~15 hours/week at $80/hour to develop requested features, optimize performance, and provide continuous enhancements over the next year.  
+2. **Server and Infrastructure Costs**: Ensuring fast load times, scalability, and uptime as user traffic increases.
 
-- **Working/Saved Links**  
-  Many users requested stable direct links (bookmarks) to specific data views.  
+### **User Feedback Highlights**
+We conducted a survey to determine key user needs, revealing high-demand feature requests:
 
-- **Coverage & Diagnostics**  
-  A top request was displaying coverage data and hotspot diagnostics. Users want to see how their hotspot coverage areas overlap with neighbors, distance to witnesses, and how to diagnose issues (denials, 0.20 transmit scale, etc.).  
+- **Saved Links & Bookmarks** – Users want the ability to save and share direct links to specific data views.
+- **Coverage & Diagnostics** – Users need interactive coverage maps and diagnostic tools for troubleshooting hotspot performance.
+- **Performance & Reliability** – Faster load times, fewer crashes (especially in Chrome), and improved map rendering are essential.
+- **Comparisons & Leaderboards** – Users want regional rankings, earnings comparisons, and performance benchmarks.
+- **Analytics & Export** – CSV exports, historical earnings tracking, and multi-hotspot portfolio views.
+- **UI/UX Enhancements** – More intuitive dashboards, better filtering options, dark mode refinements, and mobile/desktop widget support.
 
-- **Performance & Reliability**  
-  Feedback included requests for faster load times, fewer crashes (particularly in Chrome), and a more optimized map display.  
+## **Project Overview**
+Moken Explorer began as a free resource for Helium hotspot owners to monitor earnings and network activity. Since the migration to Solana and the rise of decentralized physical infrastructure (DePIN), its role has expanded significantly.
 
-- **Comparisons & Leaderboards**  
-  Users want ways to compare hotspots (by location, earnings, or coverage) and see a top-rank listing within geographic areas (e.g., city or region).  
+### **Why This Matters**
+1. **Network Expansion**: As Helium supports new IoT projects (e.g., WeatherXM, agtech sensors), visibility into real-world usage and performance is crucial.
+2. **Actionable Insights**: Reliable data helps users optimize deployments, identify coverage gaps, and maximize earnings.
+3. **Community Education**: Making Helium data accessible empowers users to make informed decisions and improve network participation.
 
-- **Analytics & Export**  
-  Many asked for CSV exports of historical data, more advanced analytics, deeper insights into daily/weekly earnings, and the ability to track multiple hotspots at once (wallet-wide or portfolio view).  
+## **Goals & Objectives**
+1. **Enhance Functionality & Performance**
+   - Implement key user-requested features like saved links, enhanced coverage maps, and improved diagnostics.
+   - Optimize performance to reduce crashes and ensure smooth UI interactions.
+2. **Improve Diagnostic Tools**
+   - Provide insights into transmit scale changes, witness losses, and denial causes.
+3. **Expand Data & Analytics**
+   - Enable CSV exports, multi-hotspot tracking, and advanced filters.
+4. **Strengthen Community Resources**
+   - Develop tutorials, documentation, and AI-powered recommendations to help users optimize hotspot placement.
+5. **Maintain High-Performance Infrastructure**
+   - Upgrade server resources to accommodate increased traffic and prevent performance bottlenecks.
 
-- **UI/UX Enhancements**  
-  Suggestions included more intuitive dashboards, robust filtering, dark mode improvements, offline notifications, and the option for a mobile or desktop widget.
+## **Proposed Solution**
+1. **Development Hours** – Allocate ~15 hours/week of dedicated development time for ongoing feature updates and improvements.
+2. **Infrastructure Enhancements** – Invest in scalable hosting solutions to support high-traffic demand.
+3. **Feature Implementation**
+   - **User Experience Improvements** – Enhanced navigation, coverage visualization, and real-time data insights.
+   - **Analytics & Reporting** – CSV exports, historical comparisons, and multi-hotspot monitoring.
+   - **Diagnostic Tools** – Intuitive displays for offline, denied, or poorly performing hotspots.
+   - **Notifications & Alerts** – Email or in-app alerts for outages, performance dips, and other key changes.
+4. **Community Collaboration** – Alpha/beta testing with Helium users to fine-tune new features.
 
-In short, Moken Explorer is already popular, but users are eager for more robust features, reliability, and speed.
+## **Timeline & Milestones**
+| Milestone      | Description                                                     | Expected Completion Date |
+|---------------|-----------------------------------------------------------------|---------------------------|
+| **Milestone 1** | Infrastructure preparation, CI/CD setup, and feature kickoff (saved links). | Month 1 |
+| **Milestone 2** | Beta release of coverage maps, diagnostics tools, and alerting. | Months 2-3 |
+| **Milestone 3** | Performance optimizations, advanced analytics, and CSV export. | Months 3-5 |
+| **Milestone 4** | UI/UX refinements, leaderboard expansion, witness/distance metrics. | Months 5-9 |
+| **Milestone 5** | Full production release, continued maintenance and iteration. | Months 9-12 |
 
----
+*Note: User testing and iterative improvements will be ongoing throughout development.*
 
-## Project Overview
-The **Moken Helium IOT Explorer** started as a free tool to give Helium hotspot owners deeper visibility into their devices’ earnings and performance data. With the Helium network migration to Solana and the continuing expansion of DePIN projects, the Explorer has become integral for analyzing coverage, data usage, rank, and subnetwork activity. 
+## **Key Performance Indicators (KPIs)**
+- **Active Users** – Monthly active user growth and session engagement.
+- **Feature Adoption** – Usage metrics for newly introduced tools.
+- **Community Satisfaction** – Survey responses and user feedback.
+- **Performance Benchmarks** – Faster load times, improved reliability, and reduced errors.
+- **Diagnostics & Monitoring** – Number of hotspots actively tracked via Moken Explorer.
 
-### Why This Matters
-1. **Helium Data Growth**: As more IoT deployments arrive on Helium (e.g., WeatherXM, agtech sensors), Moken Explorer can help owners and the broader ecosystem visualize actual usage, coverage, and reliability.  
-2. **Network Insights**: Timely and accurate Helium network metrics spur better decision-making—identifying coverage gaps, comparing performance, and encouraging improvements.  
-3. **Community Education**: By making advanced or hidden hotspot data more transparent, Moken Explorer helps users troubleshoot issues, optimize setups, and gain confidence in Helium’s potential.
+## **Budget Breakdown**
+| Item                                  | Cost          |
+|---------------------------------------|--------------|
+| **Development Time** (15 hrs/week @ $80/hr) | $62,400      |
+| **Server & Infrastructure** (scaling, monitoring) | $17,600      |
+| **Total**                             | **$80,000**  |
 
----
+*Note: This grant will cover a portion of total costs, with Moken/HeliumDeploy contributing additional resources.*
 
-## Project Goals and Objectives
-1. **Enhance Functionality and Performance**  
-   - Implement user-requested features such as saved links, improved coverage visualizations, distance metrics, and advanced analytics.  
-   - Reduce crashes and optimize map data to ensure a smooth user experience.
-
-2. **Improve Diagnostics and Clarity**  
-   - Surface deeper diagnostics (e.g., transmit scale changes, witness loss reasons, denial explanations).  
-
-3. **Expand User-Friendly Tools**  
-   - Offer CSV exports and data integrations so advanced users can run their own analysis.  
-   - Allow portfolio or wallet-level overviews and leaderboards for local/regional hotspots.
-
-4. **Educate and Empower the Community**  
-   - Provide clear, actionable insights for maximizing hotspot performance (e.g., antenna suggestions, location tips).  
-   - Create documentation, tutorials, or possibly AI-driven hints to help both newcomers and experienced operators.
-
-5. **Sustain High-Speed Infrastructure**  
-   - Maintain reliable hosting and scale servers to support thousands of daily users without lag or downtime.  
-
----
-
-## Proposed Solution
-1. **Development Hours**: Dedicate ~15 hours/week of developer time for one year (total 780 hours) to incorporate new features, respond to user feedback, and perform ongoing maintenance.  
-2. **Infrastructure and Server Costs**: Allocate part of the funding toward high-performance hosting to ensure fast response times, especially for map visualizations and real-time data retrieval.  
-3. **Implementation of Key Features**  
-   - **User Experience Enhancements**: Bookmarked links, improved layout, coverage filters, distance/witness calculators, and new ways to compare hotspots.  
-   - **Analytics & Exports**: CSV export, multi-hotspot dashboards, historical comparisons, and advanced filtering.  
-   - **Diagnostics and Status Tools**: More intuitive display of denied, blocked, offline, or scaled hotspots, plus recommended next steps.  
-   - **Notifications & Alerts**: Email or in-app alerts for performance drops, offline events, or changes in scale/witnessing.  
-4. **Community Feedback and Iteration**  
-   - Conduct alpha/beta testing cycles with the Helium community to refine features before public release.  
-
----
-
-## Timeline and Milestones
-
-| Milestone      | Description                                                     | Expected Completion Date        |
-|----------------|-----------------------------------------------------------------|---------------------------------|
-| **Milestone 1** | **Kickoff & Infrastructure Prep**<br/>- Allocate server resources<br/>- Set up CI/CD for fast iterations<br/>- Begin dev on high-priority features (saved links) | Month 1 |
-| **Milestone 2** | **Beta Feature Rollouts**<br/>- Implement coverage enhancements<br/>- Deploy initial diagnostics & alerting<br/>- Gather user feedback via direct testing sessions             | Month 2 - 3 |
-| **Milestone 3** | **Performance Optimization**<br/>- Resolve map performance & stability issues<br/>- Introduce advanced analytics (CSV export, multi-hotspot data)                            | Month 3 - 5 |
-| **Milestone 4** | **Extended Features & UI/UX Polish**<br/>- Expand subnetwork dashboards, region leaderboards<br/>- Add deeper witness/distance metrics<br/>- Release AI-based suggestions pilot | Month 5 - 9 |
-| **Milestone 5** | **Final Release and Ongoing Maintenance**<br/>- Stable production release<br/>- Continued bug fixes, new user requests, and performance tuning through Month 12             | Month 9 - 12 |
-
-*Note: Development and community feedback will be ongoing throughout the 12-month period.*
-
----
-
-## KPIs / Metrics
-- **Active Users**: Monthly active user count & site usage metrics.  
-- **Feature Adoption**: Usage of new features (coverage layers, CSV exports).  
-- **Community Satisfaction**: Survey follow-ups and direct feedback on the new features.  
-- **Performance Benchmarks**: Page load times, map rendering speeds, error rates.  
-- **Diagnostics & Usage**: Growth in number of hotspots actively monitored via Moken Explorer.
-
----
-
-## Budget
-Below is a proposed breakdown of the **\$80,000** grant request:
-
-| Item                                         | Cost          |
-|----------------------------------------------|---------------|
-| **Developer Time**<br/>*(~15 hrs/week @ \$80/hr, partially offset by this grant)* | \$62,400      |
-| **Server & Infrastructure**<br/>*(high-performance hosting, scaling, monitoring)* | \$17,600       |
-| **Total**                                    | **\$80,000**  |
-
-*Note: The actual cost for 15 hours/week over 12 months exceeds \$20,000. This grant will partially underwrite development time and infrastructure, with additional support from Moken/HeliumDeploy to cover the remainder.*
-
----
-
-## Additional Information
-Moken Explorer is a central resource for Helium IoT participants, from individual hotspot owners to businesses managing sensor deployments. By meeting these user-driven requests—improved performance, better coverage insights, and more—the Explorer will continue to serve as a foundation for understanding and growing Helium’s DePIN coverage worldwide.
-
-We welcome any further questions regarding our plan, methodology, or technical approach, and are grateful for the Helium community’s feedback that helped shape this proposal.
+## **Conclusion**
+Moken Explorer is a vital tool for Helium IoT users, providing visibility and insights critical for network optimization. With this funding, we aim to enhance performance, add user-requested features, and ensure long-term scalability. We appreciate the opportunity to contribute to the Helium ecosystem and welcome any questions or feedback on this proposal.

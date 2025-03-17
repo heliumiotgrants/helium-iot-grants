@@ -25,7 +25,6 @@ We conducted a survey to determine key user needs, revealing high-demand feature
 - **Coverage & Diagnostics** – Users need interactive coverage maps and diagnostic tools for troubleshooting hotspot performance.
 - **Performance & Reliability** – Faster load times, fewer crashes (especially in Chrome), and improved map rendering are essential.
 - **Comparisons & Leaderboards** – Users want regional rankings, earnings comparisons, and performance benchmarks.
-- **Analytics & Export** – CSV exports, historical earnings tracking, and multi-hotspot portfolio views.
 - **UI/UX Enhancements** – More intuitive dashboards, better filtering options, dark mode refinements, and mobile/desktop widget support.
 
 ## **Project Overview**
@@ -42,11 +41,9 @@ Moken Explorer began as a free resource for Helium hotspot owners to monitor ear
    - Optimize performance to reduce crashes and ensure smooth UI interactions.
 2. **Improve Diagnostic Tools**
    - Provide insights into transmit scale changes, witness losses, and denial causes.
-3. **Expand Data & Analytics**
-   - Enable CSV exports, multi-hotspot tracking, and advanced filters.
-4. **Strengthen Community Resources**
+3. **Strengthen Community Resources**
    - Develop tutorials, documentation, and AI-powered recommendations to help users optimize hotspot placement.
-5. **Maintain High-Performance Infrastructure**
+4. **Maintain High-Performance Infrastructure**
    - Upgrade server resources to accommodate increased traffic and prevent performance bottlenecks.
 
 ## **Proposed Solution**
@@ -54,7 +51,6 @@ Moken Explorer began as a free resource for Helium hotspot owners to monitor ear
 2. **Infrastructure Enhancements** – Invest in scalable hosting solutions to support high-traffic demand.
 3. **Feature Implementation**
    - **User Experience Improvements** – Enhanced navigation, coverage visualization, and real-time data insights.
-   - **Analytics & Reporting** – CSV exports, historical comparisons, and multi-hotspot monitoring.
    - **Diagnostic Tools** – Intuitive displays for offline, denied, or poorly performing hotspots.
    - **Notifications & Alerts** – Email or in-app alerts for outages, performance dips, and other key changes.
 4. **Community Collaboration** – Alpha/beta testing with Helium users to fine-tune new features.
@@ -64,7 +60,7 @@ Moken Explorer began as a free resource for Helium hotspot owners to monitor ear
 |---------------|-----------------------------------------------------------------|---------------------------|
 | **Milestone 1** | Infrastructure preparation, CI/CD setup, and feature kickoff (saved links). | Month 1 |
 | **Milestone 2** | Beta release of coverage maps, diagnostics tools, and alerting. | Months 2-3 |
-| **Milestone 3** | Performance optimizations, advanced analytics, and CSV export. | Months 3-5 |
+| **Milestone 3** | Performance optimizations, multi-hotspot analytics. | Months 3-5 |
 | **Milestone 4** | UI/UX refinements, leaderboard expansion, witness/distance metrics. | Months 5-9 |
 | **Milestone 5** | Continued maintenance and iteration. | Months 9-12 |
 

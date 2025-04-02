@@ -2,6 +2,7 @@
 
 ## Project Title
 **WeatherXM stations infrastructure and training - Jamaica**
+**Revision 5. IoT WG Revision 4**
 
 ## Applicant Information
 - **Name**: Larry Ketchersid
@@ -11,55 +12,56 @@
 - **Discord Username**: lketchersid
 
 ## Grant Request Summary
-This grant request is for hotspots, agriculture and other sensors, infrastructure, marketing/documentation and training to support the deployment of WeatherXM stations in the Caribbean country of Jamaica as part of the WeatherXM+Swissborg deployment project. Additional sensors to compliment the weather stations will not only provide more traffic on the Helium network, but provide for enhanced regenerative agricultural solutions for Jamaican farmers.
+This grant request is to support the building of a hyper-local weather solution in the Caribbean country of Jamaica that can be utilized by the Meteorological Service of Jamaica, citizens and others year-round, but particularly during the tropical storm and hurricane season that heavily impacts the island, its people and businesses. 77 Helium WeatherXM stations have been supplied and are already in Jamaica as part of SensorETA’s participation in the WeatherXM+Swissborg deployment project. 
 
-Total for the grant request is $50,050.
+As with SensorETA’s other enterprise solution deployments, this solution will provide another excellent marketing use case for the Helium network. For examples, see these articles (Weather in Xochimilco (https://www.sensoreta.com/wxmxochimilco), Tracking for Proof of Recycling (https://www.linkedin.com/pulse/proof-recycling-proving-circular-economy-larry-ketchersid-dzgec)).
+
+This grant request covers costs for hotspots (both PoE and off-grid), a public custom dashboard utilizing the weather data plus educational materials and funding for marketing.
+
+This proposal does assume up-front payment for the part of the proposal that would be utilized to procure the hotspots and associated equipment.
+
+Total for the grant request is $39,050. Total that would be requested for up-front payment would be $29,050.
 
 ## Project Overview
-WeatherXM, with funding from VC Swissborg, is rolling out 2,300+ weather stations. Many of these (700+) are the Helium version of their weather stations. The goal of the project is to provide coverage to “underserved areas. Therefore, most of these are in areas where there is no current LoRaWAN (or Helium) coverage, as well as a lack of weather data.
+Hurricane season is forecast to start in June, though in recent years tropical weather has affected the island earlier. The goal is to have these weather stations deployed before the start of these year’s tropical weather season.
 
-52 of these Helium weather stations have been delivered to Jamaica with 25 more WiFi weather stations in Jamaica in customs as of this writing.
+The project will deploy 77 Helium WeatherXM stations in Jamaica, and the Helium hotspots needed to support their data transfer. WeatherXM and SensorETA have provided a map of suggested locations for deployment based on the stated goals and topology of the country. Working with local partners Electronic Technicians Training Limited (ETTL) (https://ettlonline.com), a communications technology company based in Jamaica, and with the Meteorological Service of Jamaica, actual locations (i.e., where deployment permission is granted, and where LoRaWAN coverage can be made available) for each of the stations has been laid out. Many of these locations are schools, with the goal of the deployment team to educate the STEM programs of these schools on this solution.
 
-SensorETA is working with one organization in Jamaica that (1) wants to create a hurricane and tropical weather network for the island, (2) are farmers and will deploy stations and sensros in agricultural areas as well, and (3) are trained telecommunications technicians. With LoRaWAN soil, CO2 and WeatherXM stations, we are working with these organization to not only help them with these agriculture projects but laying the groundwork of a foundation for carbon credits.
+The 77 weather stations are already in Jamaica. SensorETA and WeatherXM shared the cost of customs and import fees, and the stations were provided by WeatherXM, with funding from VC Swissborg. Two IoT hotspots have been provided, and two weather stations have already been deployed by Ruel Waine Corniffe and the ETTL team.
 
-One of the most common comments in the Helium IoT Working Group weekly calls and Discord is the need to increase usage of the network.
+Ruel and his team of four are highly motivated because of past experience with hurricanes to rapidly deploy hotspots and weather stations at the designated locations. Ruel has a long history in both communications technology and in disaster management in planning (for Jamaica and for some neighboring islands). 
 
-The most straightforward project to increase usage of the network, while also increasing the worldwide footprint of the network and the education and understanding of Helium IoT is to do anything and everything to support this rollout of WeatherXM stations.
+WeatherXM, with this funding from VC Swissborg, is rolling out 2,300+ weather stations. Many of these (700+) are the Helium version of their weather stations. The goal of the project is to provide coverage to “underserved" areas. Therefore, most of these are in areas where there is no current LoRaWAN (or Helium) coverage, as well as a lack of weather data.
 
-SensorETA is the lead partner with WeatherXM on this rollout. SensorETA has a layered approach to its enterprise IoT solution implementations, building as needed from the network up to and including utilizing sensor data to help build the case for carbon credits for our implementation partners. SensorETA is the IoT partner for carbon credit companies like Arva Intelligence, helping that company build on its leading carbon credit machine learning algorithms with targeted sensor data.
+The project, paralleling the WeatherXM+Swissborg project, will last at least three years. Jamaica’s requirements for hyperlocal weather monitoring will, of course, extend beyond that.
 
-In Jamaica, SensorETA's partner is:
-- Electronic Technicians Training Limited (ETTI) (https://ettlonline.com), a communications technology company based in Jamaica. ETTI is led by Ruel Waine Corniffe who has setup and climbed most of the cell towers in Jamaica. Ruel’s team is motivated by recent weather events effecting the island and impacting the agricultural output. 
-
-Many of our in-country partners that are targeted for weather stations have pushed back on the Helium version, requesting WiFi version instead. This is mainly due to (1) funding for hotspots, in most cases off-grid hotspots; (2) lack of technical knowledge of Helium or LoRaWAN. This grant request is to address both hurdles.
-
-For these IoT working group proposals, each country's deployment and the in-country projects that the deployment will support and nurture are separated into separate proposals.
+In addition to ETTL, the Meteorological Service of Jamaica has offered a partnership agreement to SensorETA (and ETTL) to provide their on-going support for this solution. As it did with Trinidad and Tobago weather station deployment, SensorETa will assist the Meteorological Service in applying for a WeatherXM Research grant.
 
 ## Project Goals and Objectives
+- Rollout 77 weather stations before the start of the 2025 hurricane season.
+- Make the data actionable by providing a **public custom dashboard** for use by the by the Meteorological Service of Jamaica, citizens and others.
+- Document this solution as a use case through video and articles.
 - Increase the footprint of and usage of the Helium IoT network by providing hotspots and other infrastructure in support of the rollout of Helium IoT-based WeatherXM Weather stations.
 -- Each station sends a 40-byte packet every three minutes, which, at 2 DC per packet, amounts to 960 DC per day, plus an additional set of packets totaling around 200 to 400 bytes daily.
 -- The last time Leo from WeatherXM calculated WeatherXM's total DC usage a couple of months ago, it stood at roughly 18% of the Helium network’s total, based on 1,871 active stations, excluding those 200 to 400 bytes per day. WeatherXM has since increased to 2,205 active stations, and the additional 700 devices in this current WeatherXM+Swissborg project will likely raise the overall usage by around 30%, pushing WeatherXM's share to more than 25% of the network’s total DC consumption.
--- Adding in soil and CO2 sensors for additional information will add to the stickiness of the network by providing more data to farmers that can be combined with historical, current and forecasted weather data.
--- Adding tracking sensors and VisionAI sensors will add a safety and security component to the deployment.
 - Spread knowledge and ensure proper installations of the Helium IoT network by providing network testing devices such as GLAMOS to in-country deployers and distributing access to training materials.
 - Increase visibility and viability of the Helium IoT network through joint marketing with WeatherXM, SensorETA and other deployers.
 - Incentivize and empower local teams by explaining and demonstrating earning crypto through DePIN infrastructure (HNT, WXM, others)
 
 ## Proposed Solution
-- Providing funding for off-grid hotspots. Many of these implementations will be agricultural and will need solar power.
-- Providing funding for GLAMOS devices (to enable technical knowledge and ease of planning).
-- Providing training and education, in the form of kits and/or online training similar to the “Helium Hacks” training programs of the past to ensure that local partners understand the Helium technology and are empowered to install and maintain equipment effectively.
+- Funding for PoE and off-grid hotspots. Many of these implementations will be agricultural and will need solar power. The ones being implemented in schools or through partnership with the Meteorological Service of Jamaica will utilize PoE.
+- Funding for GLAMOS devices (to enable technical knowledge and ease of planning).
+- Funding for a custom dashboard to be utilized by the Meteorological Service of Jamaica, citizens and others.
+- Provide training and education, in the form of kits and/or online training similar to the “Helium Hacks” training programs of the past to ensure that local partners understand the Helium technology and are empowered to install and maintain equipment effectively.
 
 ## Timeline and Milestones
 Weather stations have already been shipped and received.
 
 | Milestone | Description | Expected Completion Date |
 | --------- | ----------- | ------------------------ |
-| Milestone 1 | Procure and Ship Hotspots, Testing Devices, Kits | Day of Funding |
-| Milestone 2 | Training | On-going and already occurring |
-| Milestone 3 | Initial Hotspot and Weather Station installation | Milestone 2 + 1 week |
-| Milestone 4 | Final Hotspot and Weather Station installation | Milestone 3 + 4 weeks |
-| Milestone 5 | Case Study and Marketing for in-country partners | Milestone 3 + 4 weeks |
+| Milestone 1 | All hotspots and associated equipment procured, shipped and in Jamaica | Day of Funding + 2 weeks (dependent on customs in Jamaica) |
+| Milestone 2 | Final Hotspot and Weather Station installation | June 2, 2025 |
+| Milestone 3 | Case Study and Marketing for in-country partners | Milestone 2 + 4 weeks |
 
 ## KPIs / Metrics
 
@@ -71,19 +73,21 @@ Through each milestone, the project team will provide metrics on:
 
 ## Budget
 
-| Item | Cost |
-| ---- | ---- |
-| Off-grid hotspots (hotspot, antenna, solar, backhaul) (qty 15) | $22,500 | 
-| Soil sensors (qty 50) | $5,000 |
-| CO2 sensors (qty 50) | $5,000 |
-| Tracking sensors (qty 50) | $100 |
-| Vision AI sensors (qty 15) | $1,500 |
-| Testing Devices (qty 3) | $600 |
+| Item | Cost | Notes |
+| ---- |---- |---- |
+| Off-grid hotspots (hotspot, antenna, solar, backhaul) (qty 13) | $18,500 | For pricing comparison: battery/solar $820 see (https://store.rakwireless.com/products/rak-battery-plus-rak9155); cellular backhaul $250 (https://www.amazon.com/Cradlepoint-IBR200-10M-NetCloud-Single-Router/dp/B082YHSSJG/); hotspot and antennas $200; mounting equipment |
+| PoE hotspots (hotspot, injector, splitter, external case) (qty 12) | $2,400 | For pricing comparison see (https://store.rakwireless.com/products/sensecap-outdoor-enclosure-kit-5-8dbi-antenna?variant=41178250903750) |
+| Weather dashboard development | $2,500 | Assumes re-use of existing SensorETA WeatherXM dashboard with customizations as request by Meteorological Service of Jamaica |
+| Testing Devices (qty 4) | $800 | Assumes Glamos devices |
 | IoT Education Kits and Courses (qty 3) | $750 |
-| Shipping and Customs Fees (est 20%) | $7,100 |
-| Video, case study production | $7,500
+| Shipping and Customs Fees (est 20%) | $4,100 |
+| Video, case study production, marketing | $10,000 | 
 
 ## Additional Information
-A use case article for a similar deployment in the Xochimilco area of Mexico can be seen at https://www.sensoreta.com/wxmxochimilco.
-
+Revision History
+- Revision 5 (current revision). Based on IoT WG feedback, removed additional sensors added in Revision 4, focused on tropical hyper-local weather solution as in Revision 3.
+- Revision 4. Based on IoT WG feedback, added in additional sensors to (a)generate more usage and traffic for network and (b) demonstrate additional utilization. Added marketing dollars for case study.
+- Revision 3. Based on IoT WG feedback, removed three countries grant proposals, re-submitted just Jamaica for tropical hyper-local weather.
+- Revision 2. Based on Helium Foundation feedback, submitted proposals for Helium IoT network infrastructure and training for four countries in the WeatherXM project to IoT WG - Jamaica, Kenya, Liberia and Venezuela.
+- Revision 1. Submitted grant proposal for Helium IoT infrastructure for entire WeatherXM Swissborg worldwide project to Helium Foundation.
 ---

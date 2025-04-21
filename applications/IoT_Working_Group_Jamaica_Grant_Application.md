@@ -2,7 +2,7 @@
 
 ## Project Title
 **WeatherXM stations infrastructure and training - Jamaica**
-**Revision 5. IoT WG Revision 4**
+**Revision 6. IoT WG Revision 5**
 
 ## Applicant Information
 - **Name**: Larry Ketchersid
@@ -20,7 +20,7 @@ This grant request covers costs for hotspots (both PoE and off-grid), a public c
 
 This proposal does assume up-front payment for the part of the proposal that would be utilized to procure the hotspots and associated equipment.
 
-Total for the grant request is $39,050. Total that would be requested for up-front payment would be $29,050.
+Total for the grant request is $43,995. Total that would be requested for up-front payment would be $26,892. The total budget includes an estimate of 25% for unexpected charges related to tariffs and customs fees, which should only be funded at the cost incurred based on receipts/invoices.
 
 ## Project Overview
 Hurricane season is forecast to start in June, though in recent years tropical weather has affected the island earlier. The goal is to have these weather stations deployed before the start of these year’s tropical weather season.
@@ -38,7 +38,7 @@ The project, paralleling the WeatherXM+Swissborg project, will last at least thr
 In addition to ETTL, the Meteorological Service of Jamaica has offered a partnership agreement to SensorETA (and ETTL) to provide their on-going support for this solution. As it did with Trinidad and Tobago weather station deployment, SensorETa will assist the Meteorological Service in applying for a WeatherXM Research grant.
 
 ## Project Goals and Objectives
-- Rollout 77 weather stations before the start of the 2025 hurricane season.
+- Rollout 77 weather stations and the Helium hotspot infrastructure to support the weather stations data transport before the start of the 2025 hurricane season.
 - Make the data actionable by providing a **public custom dashboard** for use by the by the Meteorological Service of Jamaica, citizens and others.
 - Document this solution as a use case through video and articles.
 - Increase the footprint of and usage of the Helium IoT network by providing hotspots and other infrastructure in support of the rollout of Helium IoT-based WeatherXM Weather stations.
@@ -49,19 +49,44 @@ In addition to ETTL, the Meteorological Service of Jamaica has offered a partner
 - Incentivize and empower local teams by explaining and demonstrating earning crypto through DePIN infrastructure (HNT, WXM, others)
 
 ## Proposed Solution
-- Funding for PoE and off-grid hotspots. Many of these implementations will be agricultural and will need solar power. The ones being implemented in schools or through partnership with the Meteorological Service of Jamaica will utilize PoE.
-- Funding for GLAMOS devices (to enable technical knowledge and ease of planning).
-- Funding for a custom dashboard to be utilized by the Meteorological Service of Jamaica, citizens and others.
+- Funding for **PoE and off-grid hotspots**. Many of these implementations will be in agricultural areas and will need solar power. The ones being implemented in schools or through partnership with the Meteorological Service of Jamaica will utilize PoE.
+- Funding for **GLAMOS devices and educational kits** (to enable technical knowledge and ease of planning).
+- Funding for a **custom dashboard** to be utilized by the Meteorological Service of Jamaica, citizens and others.
 - Provide training and education, in the form of kits and/or online training similar to the “Helium Hacks” training programs of the past to ensure that local partners understand the Helium technology and are empowered to install and maintain equipment effectively.
+- Provide and **publish use case upon completion**, to consist of (a) use case article published on LinkedIn and corporate websites, and as series on X/Twitter, Warpcast and others; and (b) video depiction of use case with footage from installations in Jamaica, including local deployers and other concerned parties in Jamaica, published on YouTube and LinkedIn. Will provide use case to partners (i.e., WeatherXM, Helium) for additional potential promotion. Will also provide use case to other outlets in attempt to widen coverage.
 
-## Timeline and Milestones
+## Timeline and Milestones with Budget per Milestone
 Weather stations have already been shipped and received.
 
-| Milestone | Description | Expected Completion Date |
-| --------- | ----------- | ------------------------ |
-| Milestone 1 | All hotspots and associated equipment procured, shipped and in Jamaica | Day of Funding + 2 weeks (dependent on customs in Jamaica) |
-| Milestone 2 | Final Hotspot and Weather Station installation | June 2, 2025 |
-| Milestone 3 | Case Study and Marketing for in-country partners | Milestone 2 + 4 weeks |
+| Milestone | Description | Budget | Expected Completion Date |
+| --------- | ----------- | --- | ------------------------ |
+| Grant Approval | Initial Equipment Purchases, Shipping, Taxes | $26,892 | Day of Approval |
+| Milestone 1 | All hotspots and associated equipment procured, shipped and in Jamaica | $4,603 (est) | Day of Funding + 2 weeks (dependent on customs in Jamaica) |
+| Milestone 2 | Final Hotspot and Weather Station installation | $2,500 | targeted June 2, 2025 |
+| Milestone 3 | Case Study, Video and Marketing | $10,000 | Milestone 2 + 4 weeks |
+
+## Budget
+
+| Milestone | Item | Cost | Notes |
+| --- | ---- |---- |---- |
+| Grant Approval | Off-grid hotspots (hotspot, antenna, solar, backhaul) (qty 13 @ $1,420) | $18,460 | See budget details section below |
+| Grant Approval | PoE hotspots (hotspot, injector, splitter, external case) (qty 12 @ $200) | $2,400 | For pricing comparison see (https://store.rakwireless.com/products/sensecap-outdoor-enclosure-kit-5-8dbi-antenna?variant=41178250903750) |
+| Grant Approval | Testing Devices (qty 4) | $800 | Assumes Glamos devices |
+| Grant Approval |IoT Education Kits and Courses (qty 3) | $750 |
+| Grant Approval | Shipping and Taxes (est 20%) | $4,482 |
+| Milestone 1 | Tariffs and Customs Fees (est 25%) | $4,603 | receipts/invoices provided for actual costs |
+| Milestone 2 | Weather dashboard development | $2,500 | Assumes re-use of existing SensorETA WeatherXM dashboard with customizations as request by Meteorological Service of Jamaica |
+| Milestone 3 | Marketing (use case article, video, case study production) | $10,000 | Deliverables: (a) use case article published on LinkedIn and corporate websites, and as series on X/Twitter, Warpcast and others; and (b) video depiction of use case with footage from installations in Jamaica, including local deployers and other concerned parties in Jamaica, published on YouTube and LinkedIn. |
+
+### Budget Details
+
+| Item | Sub Item | Cost | Notes |
+| --- | ---- |---- |---- |
+| Off-grid hotspots | Battery/Solar | $820 | For pricing comparison see (https://store.rakwireless.com/products/rak-battery-plus-rak9155); |
+| Off-grid hotspots | Cellular Backhaul | $250| For pricing comparison see (https://www.amazon.com/Cradlepoint-IBR200-10M-NetCloud-Single-Router/dp/B082YHSSJG/) |
+| Off-grid hotspots | Hotspot and Antennas | $200 | |
+| Off-grid hotspots | Mounting equipment, cables, glands, etc. | $150 | |
+
 
 ## KPIs / Metrics
 
@@ -71,21 +96,10 @@ Through each milestone, the project team will provide metrics on:
 - Amount of data transmitted over the Helium Network
 - Number of local community members trained on Helium technology
 
-## Budget
-
-| Item | Cost | Notes |
-| ---- |---- |---- |
-| Off-grid hotspots (hotspot, antenna, solar, backhaul) (qty 13) | $18,500 | For pricing comparison: battery/solar $820 see (https://store.rakwireless.com/products/rak-battery-plus-rak9155); cellular backhaul $250 (https://www.amazon.com/Cradlepoint-IBR200-10M-NetCloud-Single-Router/dp/B082YHSSJG/); hotspot and antennas $200; mounting equipment |
-| PoE hotspots (hotspot, injector, splitter, external case) (qty 12) | $2,400 | For pricing comparison see (https://store.rakwireless.com/products/sensecap-outdoor-enclosure-kit-5-8dbi-antenna?variant=41178250903750) |
-| Weather dashboard development | $2,500 | Assumes re-use of existing SensorETA WeatherXM dashboard with customizations as request by Meteorological Service of Jamaica |
-| Testing Devices (qty 4) | $800 | Assumes Glamos devices |
-| IoT Education Kits and Courses (qty 3) | $750 |
-| Shipping and Customs Fees (est 20%) | $4,100 |
-| Video, case study production, marketing | $10,000 | 
-
 ## Additional Information
 Revision History
-- Revision 5 (current revision). Based on IoT WG feedback, removed additional sensors added in Revision 4, focused on tropical hyper-local weather solution as in Revision 3.
+- Revision 6 (current revision). Based on IoT WG feedback and conversations with Sam at Helium Foundation, separated potential tariff charges from list of equipment into separate optional line item; added deliverables for marketing of use case; listed budget per milestone for Helium Foundation finance.
+- Revision 5 Based on IoT WG feedback, removed additional sensors added in Revision 4, focused on tropical hyper-local weather solution as in Revision 3.
 - Revision 4. Based on IoT WG feedback, added in additional sensors to (a)generate more usage and traffic for network and (b) demonstrate additional utilization. Added marketing dollars for case study.
 - Revision 3. Based on IoT WG feedback, removed three countries grant proposals, re-submitted just Jamaica for tropical hyper-local weather.
 - Revision 2. Based on Helium Foundation feedback, submitted proposals for Helium IoT network infrastructure and training for four countries in the WeatherXM project to IoT WG - Jamaica, Kenya, Liberia and Venezuela.

@@ -74,3 +74,7 @@ Maintenance work can be paused or transferred to another person by the IoT Worki
 As the original designer of the IoT deny-list and most classifiers used by Nova Labs, I bring firsthand knowledge and technical insight to this transition. 
 
 ---
+
+## Addition - Wednesday, December 4, 2024
+
+$1000 USD of the $2500 USD infrastructure budget is requested initially to provision cloud infrastructure. This will cover 2 months of hosting to deliver Milestone 1 - Infrastructure provisioning, to be delivered by the end of January 2024. 

@@ -8,6 +8,7 @@
 - **Organization (if applicable)**: wdriot.com
 - **Email**: ccall48@hotmail.com
 - **GitHub Username**: @ccall48
+- **Discord Username**: Bones
 
 ## Project Overview
 <!--Provide a brief summary of the project, its purpose, and its alignment with Helium IoT and grant program goals.-->

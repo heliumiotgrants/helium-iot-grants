@@ -23,19 +23,19 @@ Continue to work on extracting the complexity and time involved in setting up an
 - Lower the barrier of entry for prospective users or start ups to Helium ecosystem.
 - Provide documentation on using/getting started with connector.
 - Dedicate a few hours every few weeks to allow time with and help people get started.
-  - Propose to start with an hour every few weeks (AEST/AEDT Timezone).
+  - Propose to start with an hour every week in AEST/AEDT Timezone initially for 3 months.
   - If this time is insufficient in the future, we may need to increase and revisit grant for more time allowance.
 
 ## Proposed Solution
 <!--Describe the solution your project will deliver, including technical approaches, tools, and methodologies.-->
 As the solution is already operational it will aim to continue delivering a normal chirpstack v4 operating experience to users. With the added
 benefit of synchronising the operators or users device statuses with the helium packet router by using the helium iot-config for:
-- Synchronising device & join eui's on adding a new device ✅. 
-- Remove device & join eui's on disabling or removing a device ✅.
-- Synchronising device session keys (SKFS) on device activation ✅.
-- Update device session keys (SKFS) on re-joins or re-activation of a device ✅.
-- Remove stale device session keys from route id ✅.
-- Add a max copies to device variables to allow a per device above packet deduplication limit if set above or below the default route id limit ✅.
+- Synchronising device & join eui's on adding a new device. 
+- Remove device & join eui's on disabling or removing a device.
+- Synchronising device session keys (SKFS) on device activation.
+- Update device session keys (SKFS) on re-joins or re-activation of a device.
+- Remove stale device session keys from route id.
+- Add a max copies to device variables to allow a per device above packet deduplication limit if set above or below the default route id limit.
 
 The underlying code is written in python3 and run from within a docker container from the same stack as an existing
 chirpstack v4 deplyment. Or as its own container connected to existing chipstack v4 deployment via internal docker network.
@@ -61,8 +61,8 @@ Provide a detailed timeline, with milestones and expected completion dates.
 
 | Milestone | Description | Expected Completion Date |
 | --------- | ----------- | ------------------------ |
-| Add Device EUI's | Add and syncronise device eui's with HPR on creating/adding a new device | Date (Complete)|
-| Remove Device EUI's | Remove and syncronise device eui's with HPR on deleting/disabling a device | Date (Complete)|
+| Add Device EUI's | Add and syncronise device eui's with HPR on creating/adding a new device | Date (Complete) |
+| Remove Device EUI's | Remove and syncronise device eui's with HPR on deleting/disabling a device | Date (Complete) |
 | Device Session Keys (SKFS) 1 | Syncronise SKFS on device join and rejoin | Date (Complete) |
 | Device Session Keys (SKFS) 2 | Syncronise SKFS on device max copies set or update | Date (Complete) |
 | Device Session Keys (SKFS) 3 | Syncronise SKFS on device removal or on stale device SKFS | Date (Complete) |

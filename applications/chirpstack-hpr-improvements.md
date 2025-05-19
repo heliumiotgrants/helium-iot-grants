@@ -15,9 +15,11 @@
 To update and maintain an existing light weight python connector/sidecar to handle chirpstack LNS operators interactions with the helium packet router
 via the iot-config server.
 
+[Gitbub Respository Link](https://github.com/ccall48/chirpstack-hpr)
+
 ## Problem Statement
 <!--What problem does this project address? Why is it important?-->
-Continue to work on extracting the complexity and time involved in setting up and connecting a chirpstack instance and get operational on the helium IOT netork.
+Continue to work on extracting the complexity and time involved in setting up and connecting a chirpstack v4 instance and get operational on the helium IOT netork.
 
 ## Project Goals and Objectives
 <!--Outline the primary goals and objectives. What will the project achieve?-->

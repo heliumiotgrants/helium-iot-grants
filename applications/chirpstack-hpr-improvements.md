@@ -24,7 +24,8 @@ Continue to work on extracting the complexity and time involved in setting up an
 ## Project Goals and Objectives
 <!--Outline the primary goals and objectives. What will the project achieve?-->
 - Lower the barrier of entry for prospective users or start ups to Helium ecosystem.
-- Provide documentation on using/getting started with connector.
+- Provide documentation on using/getting started with the connector.
+  - github pages or to helium docs.
 - Dedicate a few hours every few weeks to allow time with and help people get started.
   - Propose to start with an hour every week in AEST/AEDT Timezone initially for 3 months.
   - If this time is insufficient in the future, we may need to increase and revisit grant for more time allowance.
@@ -70,7 +71,7 @@ Provide a detailed timeline, with milestones and expected completion dates.
 | Device Session Keys (SKFS) 2 | Syncronise SKFS on device max copies set or update | Date (Complete) |
 | Device Session Keys (SKFS) 3 | Syncronise SKFS on device removal or on stale device SKFS | Date (Complete) |
 | Migrate to gRPC | Run and sign all helium syncronisation over gRPC | Date (Complete) |
-| Documentation | Add documention to a github pages site | estimate 4 weeks |
+| Documentation | Add documention to a github pages or on helium docs site | estimate 4 weeks |
 | … | … | … |
 
 
@@ -87,7 +88,7 @@ Provide a budget breakdown. Include estimated costs for key components or resour
 Budget breakdown done on estimated development time which was completed over 3 months (Initally Started in June 2023).
 Coding rate off estimated intermediate median python rate which worked out to be ~$41usd per hour. More time has been
 commited since inception due to release version changes in chirpstack especially between v4.7 and v4.8 which had breaking 
-changes which were needed to be fixed.
+changes which needed to be fixed.
 
 | Item | Cost |
 | ---- | ---- |

@@ -1,37 +1,73 @@
 # Final Report
 
 ## Project Title
-**[Your Project Name]**
+Nova Labs IoT Classifiers and Knowledge Transfer
 
 ## Project Summary
-Brief summary of the project’s goals, impact, and alignment with Helium IoT objectives.
+
+This project aimed to transfer knowledge of the IoT deny-list classifiers developed at Nova Labs, along with their documentation, to the Helium Foundation and IoT Working Group (IoT WG).
+
+The IoT deny-list is essential to protecting the Helium IoT network from attacks that can occur faster than Proof of Coverage (PoC) mechanisms can adapt. It blocks specific hotspot pubkeys from receiving PoC rewards and requires regular maintenance to remain effective against new and evolving threats.
+
+By updating and documenting the deny-list classifiers, we preserve their value as a transparent and accountable tool to ensure network integrity.
 
 ## Accomplished Objectives
-List each major objective, indicating whether it was achieved. Summarize each accomplishment.
 
-| Objective | Status | Summary |
-| --------- | ------ | ------- |
-| Objective 1 | Achieved / Not Achieved | Brief summary |
-| Objective 2 | Achieved / Not Achieved | Brief summary |
+| Milestone                         | Description                                                    | Date Completed |
+| --------------------------------- | -------------------------------------------------------------- | --------------- |
+| Infrastructure Provisioning      | Transfer the existing classification system to new infrastructure | January 2024    |
+| Documentation                    | Comprehensively document the existing classifiers               | March 2025      |
+| Classifier Maintenance and Development | Update the existing classifiers to address emerging threats     | June 2025       |
+
+
+## Accomplished Objectives
+
+| Milestone                  | Description                                                    | Date Completed |
+| -------------------------- | -------------------------------------------------------------- | ------------------------ |
+| **Infrastructure Provisioning** | Transfer the existing classification system to new infrastructure | January 2024            |
+| **Documentation**               | Comprehensively document the existing classifiers               | March 2025             |
+| **Maintenance and New Classifiers** | Update the existing classifiers to address emerging threats     | June 2025            |
+
 
 ## Project Impact and Outcomes
-Provide a detailed explanation of the project’s impact on the Helium IoT community and any other relevant outcomes.
+
+1. The Helium Foundation and community now have the necessary knowledge to manage the IoT deny-list, maintaining it as a defense against attacks that cannot be quickly addressed through PoC adjustments.
+
+2. Comprehensive documentation of the classification system originally developed by Nova Labs is now publicly available, enabling all stakeholders to make informed governance decisions.
+
+3. Time spent on deny-list issues during IoT WG sessions has been significantly reduced, allowing the group to focus on network growth and ecosystem development.
+
+4. The new ITM classifier helps ensure rewards remain in the hands of hotspot owners who are actively contributing to the network, incentivising legitimate gateway deployments.
+
 
 ## Challenges and Lessons Learned
-Discuss any significant challenges, unexpected changes, or lessons learned through the project.
+
+1. Documenting the existing classification pipeline required access to institutional knowledge held by the Nova Labs engineering team. Their cooperation was critical to delivering Milestone 2 successfully.
+
+2. Infrastructure costs for compute-heavy workloads continue to rise. A balance was struck between Amazon S3 egress fees and hosting a high-performance compute node to run classification workloads effectively.
+
+3. The threat landscape targeting the IoT network evolves over time. Frequent communication with the IoT Working Group and active community members helped shape a classifier that delivers the greatest impact under current conditions.
 
 ## Budget Summary
-Provide a final budget summary, with actual costs versus the estimated budget.
 
-| Item | Estimated Cost | Actual Cost |
-| ---- | -------------- | ----------- |
-| Component 1 | $ | $ |
-| Component 2 | $ | $ |
+This project was completed as per the proposed budget. 
+
+| Item                             | Development Time  | Cost    |
+| -------------------------------- | ------| ------- |
+| **Documentation**                | 2 weeks | $7,500 |
+| **Transfer to New Infrastructure** | 2 weeks | $7,500 |
+| **Creation of New IoT Classifiers** | 4 weeks | $15,000 |
 
 ## Future Recommendations
-Include any recommendations or suggestions for future projects or grant applicants based on your experience.
+
+The IoT Working Group plays a vital role in guiding the growth of the Helium network and identifying new industrial use cases. As deny-list issues are now largely handled through this project, discussion time devoted to them during IoT WG sessions should continue to be kept to a minimum.
 
 ## Additional Documentation
-Attach or link any additional documentation, such as technical reports, user manuals, code repositories, or media.
 
+- Milestone 2 documentation:  
+  https://github.com/heliumiotgrants/helium-iot-grants/tree/main/milestones/docs
+
+- Source code for the new ITM classifier (Milestone 3):  
+  https://github.com/mrpatrick1991/helium-itm-classifier
+  
 ---

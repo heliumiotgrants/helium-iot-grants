@@ -12,8 +12,7 @@
 
 ## Project Overview
 <!--Provide a brief summary of the project, its purpose, and its alignment with Helium IoT and grant program goals.-->
-To update and maintain an existing light weight python connector/sidecar to handle chirpstack LNS operators interactions with the helium packet router
-via the iot-config server.
+For existing time put into updating and maintaining an existing light weight python connector/sidecar to handle chirpstack LNS operators interactions with the helium packet router via the iot-config server.
 
 [Gitbub Respository Link](https://github.com/ccall48/chirpstack-hpr)
 
@@ -49,7 +48,6 @@ chirpstack v4 deplyment. Or as its own container connected to existing chipstack
 With the recent passing of HIP 116 the network is now within reach of regular users for their own deployments. One of the last pieces
 in the puzzle is maintaining and updating a simple synchronisation tool that requires minimal end user effort to operate. This is a solution
 for people who do not need or want to run a public console or need to handle and run stripe payments for tenants.
-
 
 ## Timeline and Milestones
 <!--

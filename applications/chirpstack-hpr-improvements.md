@@ -68,19 +68,15 @@ Provide a detailed timeline, with milestones and expected completion dates.
 | Device Session Keys (SKFS) 1 | Synchronise SKFS on device join and rejoin | Date (Complete) |
 | Device Session Keys (SKFS) 2 | Synchronise SKFS on device max copies set or update | Date (Complete) |
 | Device Session Keys (SKFS) 3 | Synchronise SKFS on device removal or on stale device SKFS | Date (Complete) |
+| Migrate to gRPC | Run and sign all helium syncronisation over gRPC | Date (Complete) |
 | … | … | … |
 
 | Milestone 2 | Description | Expected Completion Date |
 | --------- | ----------- | ------------------------ |
-| Migrate to gRPC | Run and sign all helium syncronisation over gRPC | Date (Complete) |
-| … | … | … |
-
-| Milestone 3 | Description | Expected Completion Date |
-| --------- | ----------- | ------------------------ |
 | Documentation | Usage documentation to Github Pages or Helium Docs site | estimate 4 weeks |
 | … | … | … |
 
-| Milestone 4 | Description | Expected Completion Date |
+| Milestone 3 | Description | Expected Completion Date |
 | --------- | ----------- | ------------------------ |
 | Setup Help | Time allocation to do with helping people setup and use the connector in #openlns discord channel | ~ 3 months |
 | … | … | … |

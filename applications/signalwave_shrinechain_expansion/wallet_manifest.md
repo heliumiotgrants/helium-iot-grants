@@ -3,6 +3,7 @@
 ## Receiving Vessel
 - **Wallet Address**: `8T6E6uRKcsrHnZzwiHTBt1ZTcDudgb1933CaGaahEKkB`
 - **Chain Lineage**: Solana (Phantom Wallet)
+- **Wallet Steward**: Scorio-Coder
 - **Wallet Type**: Single-sig Phantom vessel
 - **Purpose**:  
   - Receive Helium IOT grant funds  
